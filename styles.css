@@ -1,0 +1,307 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 28px;
+}
+
+/* header styles */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 600px;
+    display: flex;
+}
+
+.header-text {
+    margin: 25px 0px;
+    line-height: 25px;
+}
+
+.header-flower {
+    
+    background-position: bottom;
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+
+.content {
+    width: 500px;
+    margin: 140px 0px 0px 175px;
+}
+
+
+
+.featured {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 120px;
+}
+
+.featured-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.flr1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 80px 50px 0px 50px;
+    height: 300px;
+}
+
+.flr2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 80px 18px 0px 18px;
+    height: 300px;
+}
+
+.flr3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 80px 50px 0px 50px;
+    height: 300px;
+}
+
+.img-text {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+
+ /* banner style */
+
+
+.optional {
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.opt-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* hot deal section style */
+
+
+.hot-deal {
+    height: 500px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.deal-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 600px;
+    margin: 20px;
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.deal-content {
+    text-align: center;
+}
+
+.deal-content span {
+    color: #E55473;
+}
+
+.deal-img {
+    width: 250px;
+}
+
+
+/* insta styles */
+
+
+.insta {
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.num1 {
+    width: 235px;
+}
+
+/* extra section styles */
+
+
+.reviews-container {
+    display: flex;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.reviews {
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(229, 84, 115, 0.10);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.comment-description {
+    color: #757575;
+}
+
+/* get-deal styles */
+
+
+.get-deal {
+    background-image: url("../assets/Rectangle\ 9.png");
+    background-size: cover;
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.get-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.get-deal-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.get-deal-content {
+    padding-top: 90px;
+}
+
+form {
+    text-align: center;
+    padding: 40px 0px 80px 0px;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 550px;
+    height: 55px;
+    flex-shrink: 0;
+    border: none;
+    padding-left: 20px;
+    margin-right: 15px;
+}
+
+/* footer styles */
+
+
+footer {
+    background-color: #111010;
+    margin-top: 100px;
+    height: 320px;
+}
+
+footer h2 {
+    color: #E55473;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    padding: 80px 0px 0px 30px;
+}
+
+footer h2 span {
+    color: #FFF;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 550px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.footer-np {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
